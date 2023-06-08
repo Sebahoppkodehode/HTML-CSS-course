@@ -30,6 +30,7 @@
         <input class="search-bar" type="text" placeholder="Search" />
         <button class="search-button">
           <img class="search-icon" src="Youtube-Nav/search.svg" alt="" />
+          <div class="tooltip">Search</div>
         </button>
         <button class="voice-button">
           <img
@@ -37,23 +38,63 @@
             src="Youtube-Nav/voice-search-icon.svg"
             alt=""
           />
+          <div class="tooltip">Search with your voice</div>
         </button>
       </div>
       <div class="right-section">
-        <img class="upload-icon" src="Youtube-Nav/upload.svg" alt="" />
-        <img class="apps-icon" src="Youtube-Nav/youtube-apps.svg" alt="" />
-        <img
-          class="notification-icon"
-          src="Youtube-Nav/notifications.svg"
-          alt=""
-        />
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="Youtube-Nav/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="apps-icon-container">
+          <img class="apps-icon" src="Youtube-Nav/youtube-apps.svg" alt="" />
+          <div class="tooltip">YouYube apps</div>
+        </div>
+
+        <div class="notification-icon-container">
+          <img
+            class="notification-icon"
+            src="Youtube-Nav/notifications.svg"
+            alt=""
+          />
+          <div class="notification-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
         <img
           class="current-user-picture"
           src="Youtube-Profile/my-channel.jpeg"
           alt=""
         />
       </div>
-      <div class="sidebar"></div>
+      <div class="sidebar">
+        <div class="sidebar-link">
+          <img src="youtube-nav/home.svg" />
+          <div>Home</div>
+        </div>
+
+        <div class="sidebar-link">
+          <img src="youtube-nav/explore.svg" />
+          <div>Explore</div>
+        </div>
+
+        <div class="sidebar-link">
+          <img src="youtube-nav/subscriptions.svg" />
+          <div>subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-nav/originals.svg" />
+          <div>originals</div>
+        </div>
+
+        <div class="sidebar-link">
+          <img src="youtube-nav/youtube-music.svg" />
+          <div>youtube-music</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="youtube-nav/library.svg" />
+          <div>library</div>
+        </div>
+      </div>
     </div>
     <div class="video-grid">
       <div class="video-preview">
